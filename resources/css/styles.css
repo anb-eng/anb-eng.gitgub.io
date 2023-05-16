@@ -32,7 +32,7 @@ html {
 
 body, p {
 	color: #53575a; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.625rem 'Malgun Gothic', '맑은 고딕', "Open Sans", sans-serif;
 }
 
 h1 {
@@ -586,17 +586,29 @@ a:hover {
 .header .header-content {
 	padding-top: 11rem;
 	padding-bottom: 9rem;
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.185)), url('../../resources/images/bg-index.jpg');
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.893), rgba(0, 0, 0, 0.185)), url('../../resources/images/bg-index.jpg');
 	background-size: cover;
 	background-position: 50% 50%;
 	text-align: center;
 }
 
 .header .h1-large {
+	text-align: left;
 	margin-bottom: 2.25rem;
 	color: #ffffff;
-	font-size: 3rem;
+	font-size: 2rem;
 	line-height: 3.75rem;
+	text-shadow: 0.05rem 0.05rem rgba(128, 128, 128, 0.422);
+}
+
+.header .header-txt {
+	text-align: left;
+	margin-bottom: 1.5rem;
+	color: #ffffff;
+	font-size: 1.8rem;	
+	font-weight: 500;
+	line-height: 1.5rem;
+	text-shadow: 0.05rem 0.05rem rgba(128, 128, 128, 0.422);
 }
 
 
@@ -996,8 +1008,14 @@ a:hover {
 	
 	.header .h1-large {
 		margin-bottom: 2.75rem;
-		font-size: 5rem;
-		line-height: 5.75rem;
+		font-size: 4rem;
+		line-height: 3rem;
+	}
+	
+	.header .header-txt {
+		margin-bottom: 1.8rem;
+		font-size: 2.2rem;	
+		line-height: 2.1rem;
 	}
 	/* end of header */
 
