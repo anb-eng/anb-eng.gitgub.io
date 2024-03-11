@@ -822,16 +822,16 @@ a:hover {
 	color:rgb(255, 255, 255);
 }
 
-.organization-chart .level-2::before {
-	content: "";
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 2px;
-	height: 20px;
-	background: rgb(0, 0, 0);
-}
+/* .organization-chart .level-2::before { */
+/* 	content: ""; */
+/* 	position: absolute; */
+/* 	top: 100%; */
+/* 	left: 50%; */
+/* 	transform: translateX(-50%); */
+/* 	width: 2px; */
+/* 	height: 20px; */
+/* 	background: rgb(0, 0, 0); */
+/* } */
 
 .organization-chart .level-2::after {
 	display: none;
